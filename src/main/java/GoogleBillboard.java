@@ -5,14 +5,14 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		String digits;
  double d;
-		for (int i = 12; i <e.length(); i+=10){
+		for (int i = 12; i <e.length(); i++){
     digits = e.substring(i-10,i);
-    d = Double.parseDouble(digits);
-System.out.println(d);
-     if (isPrime(d)==false){
-   System.out.println( "prime");
-  } else  System.out.println( "not prime");
-    }
+    dNum = Double.parseDouble(digits);
+     if (isPrime(dNum)==false){
+       System.out.println(dNum);
+       break;
+     }
+  }
 	}
 	
 
