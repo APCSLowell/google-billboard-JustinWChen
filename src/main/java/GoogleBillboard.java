@@ -15,7 +15,7 @@ System.out.println(dNum);
     }
 
 	//Finish this function
-	public boolean isPrime(double dNum){
+	public static boolean isPrime(double dNum){
         boolean True = false;
      for (int j = 2; j <= Math.sqrt(dNum); j++){
        if (dNum%j==0)
